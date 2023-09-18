@@ -1,0 +1,56 @@
+.a{
+    display: flex;
+    align-content: center;
+justify-content: center;
+margin-top: 250px;
+border-radius: 20px;
+}
+.b{
+display :block;
+justify-content: center;
+align-items: center;
+background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+}
+/* CSS for animating the body content */
+body {
+    opacity: 0; /* Start with a transparent body */
+    animation: fadeIn 2s ease-in-out forwards; /* Apply the fadeIn animation */
+    background-color: #f5f5f5; /* Set the background color for the entire body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Define a font for the body */
+
+    /* Create an outline design using box-shadow */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+}
+/* CSS for body with outline design and partial background colors */
+
+
+/* Keyframes for the fadeIn animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Start with opacity 0 (completely transparent) */
+    }
+    100% {
+        opacity: 1; /* End with opacity 1 (fully visible) */
+    }
+}
+/* Basic button customization */
+.custom-button {
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove default button border */
+    padding: 10px 20px; /* Adjust padding for button size */
+    border-radius: 10px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Change button style on hover */
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+/* Add more styles for different states (e.g., active, disabled) if needed */
